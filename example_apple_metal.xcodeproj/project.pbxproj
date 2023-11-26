@@ -8,52 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		05318E0F274C397200A8DE2E /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05318E0E274C397200A8DE2E /* GameController.framework */; };
-		07A82ED82139413D0078D120 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
-		07A82ED92139418F0078D120 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
-		452ADFCA2B103670009F133F /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
+		4553E17E2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
+		4553E17F2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
+		4553E1802B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
+		4553E1812B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */; };
+		4553E1822B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */; };
+		4553E1832B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */; };
+		4553E1842B13DF8D004DF719 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1792B13DF8D004DF719 /* imgui.cpp */; };
+		4553E1852B13DF8D004DF719 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1792B13DF8D004DF719 /* imgui.cpp */; };
+		4553E1862B13DF8D004DF719 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1792B13DF8D004DF719 /* imgui.cpp */; };
+		4553E1872B13DF8D004DF719 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */; };
+		4553E1882B13DF8D004DF719 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */; };
+		4553E1892B13DF8D004DF719 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */; };
+		4553E18A2B13DF8D004DF719 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */; };
+		4553E18B2B13DF8D004DF719 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */; };
+		4553E18C2B13DF8D004DF719 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */; };
+		4553E18D2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
+		4553E18E2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
+		4553E18F2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
 		45A7BFC02B12732E00FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBE2B12732E00FC22B7 /* Metal.framework */; };
 		45A7BFC12B12732E00FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */; };
 		45A7BFC22B1273B500FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D773F2B114B07005897B4 /* Metal.framework */; };
 		45A7BFC32B1273B500FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77412B114B0F005897B4 /* MetalKit.framework */; };
 		45A7BFC82B12742D00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC72B12742D00FC22B7 /* UIKit.framework */; };
 		45A7BFCB2B1274A000FC22B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */; };
-		45A7BFD12B127E9900FC22B7 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
-		45A7BFD22B127E9900FC22B7 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
-		45A7BFD52B127E9900FC22B7 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
-		45A7BFD72B127E9900FC22B7 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
-		45A7BFD82B127E9900FC22B7 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
-		45A7BFDA2B127E9900FC22B7 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
 		45A7BFDC2B127FBE00FC22B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */; };
 		45A7BFDD2B127FD400FC22B7 /* TVUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77432B114B32005897B4 /* TVUIKit.framework */; };
 		45A7BFDE2B12801C00FC22B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
 		45A7BFDF2B12862C00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC52B12741000FC22B7 /* UIKit.framework */; };
-		5079822E257677DB0038A28D /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
 		8309BDA5253CCC070045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
 		8309BDA8253CCC080045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
-		8309BDBB253CCCAD0045E2A1 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
-		8309BDBE253CCCB60045E2A1 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
-		8309BDBF253CCCB60045E2A1 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */; };
 		8309BDC6253CCCFE0045E2A1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309BDC5253CCCFE0045E2A1 /* AppKit.framework */; };
 		8309BDFC253CDAB30045E2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */; };
 		8309BE04253CDAB60045E2A1 /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */; };
 		83BBE9EC20EB471700295997 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EA20EB471700295997 /* MetalKit.framework */; };
 		83BBE9ED20EB471700295997 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EB20EB471700295997 /* Metal.framework */; };
-		83BBEA0520EB54E700295997 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
-		83BBEA0620EB54E700295997 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
-		83BBEA0720EB54E700295997 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
-		83BBEA0820EB54E700295997 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
-		83BBEA0920EB54E700295997 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
-		83BBEA0A20EB54E700295997 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05318E0E274C397200A8DE2E /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		07A82ED62139413C0078D120 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ../../imgui_internal.h; sourceTree = "<group>"; };
-		07A82ED72139413C0078D120 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = ../../imgui_widgets.cpp; sourceTree = "<group>"; };
 		450D773F2B114B07005897B4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		450D77412B114B0F005897B4 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		450D77432B114B32005897B4 /* TVUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVUIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVUIKit.framework; sourceTree = DEVELOPER_DIR; };
 		450D77452B114B38005897B4 /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVMLKit.framework; sourceTree = DEVELOPER_DIR; };
+		4553E1742B13DF8D004DF719 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		4553E1752B13DF8D004DF719 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		4553E1772B13DF8D004DF719 /* imgui_impl_osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_osx.h; sourceTree = "<group>"; };
+		4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_metal.mm; sourceTree = "<group>"; };
+		4553E1792B13DF8D004DF719 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		4553E17A2B13DF8D004DF719 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
 		45A7BFBE2B12732E00FC22B7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		45A7BFC52B12741000FC22B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,12 +69,9 @@
 		45A7BFCF2B127B3200FC22B7 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45C4F0492B12677C00B4FF2A /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5079822D257677DB0038A28D /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = ../../imgui_tables.cpp; sourceTree = "<group>"; };
 		8307E7C420E9F9C900473790 /* example_apple_metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_apple_metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8307E7DA20E9F9C900473790 /* example_apple_metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_apple_metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8309BDA0253CCBC10045E2A1 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
-		8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_metal.mm; path = ../../backends/imgui_impl_metal.mm; sourceTree = "<group>"; };
-		8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_osx.mm; path = ../../backends/imgui_impl_osx.mm; sourceTree = "<group>"; };
 		8309BDC5253CCCFE0045E2A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8309BDF8253CDAAE0045E2A1 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
@@ -76,11 +80,6 @@
 		83BBE9EA20EB471700295997 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		83BBE9EB20EB471700295997 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		83BBE9EE20EB471C00295997 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
-		83BBEA0020EB54E700295997 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../imgui.h; sourceTree = "<group>"; };
-		83BBEA0120EB54E700295997 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../../imgui_draw.cpp; sourceTree = "<group>"; };
-		83BBEA0220EB54E700295997 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../../imgui_demo.cpp; sourceTree = "<group>"; };
-		83BBEA0320EB54E700295997 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../imgui.cpp; sourceTree = "<group>"; };
-		83BBEA0420EB54E700295997 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = ../../imconfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +119,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4553E1722B13DF8D004DF719 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4553E1732B13DF8D004DF719 /* imgui */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4553E1732B13DF8D004DF719 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				4553E1742B13DF8D004DF719 /* imgui.h */,
+				4553E1752B13DF8D004DF719 /* imconfig.h */,
+				4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */,
+				4553E1772B13DF8D004DF719 /* imgui_impl_osx.h */,
+				4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */,
+				4553E1792B13DF8D004DF719 /* imgui.cpp */,
+				4553E17A2B13DF8D004DF719 /* imgui_internal.h */,
+				4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */,
+				4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */,
+				4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */,
+			);
+			path = imgui;
+			sourceTree = "<group>";
+		};
 		45C4F04A2B12677C00B4FF2A /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,8 +156,8 @@
 		8307E7B520E9F9C700473790 = {
 			isa = PBXGroup;
 			children = (
-				83BBE9F020EB544400295997 /* imgui */,
-				8309BD9E253CCBA70045E2A1 /* example */,
+				4553E1722B13DF8D004DF719 /* include */,
+				8309BD9E253CCBA70045E2A1 /* metal */,
 				8307E7C520E9F9C900473790 /* Products */,
 				83BBE9E320EB46B800295997 /* Frameworks */,
 			);
@@ -149,7 +173,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8309BD9E253CCBA70045E2A1 /* example */ = {
+		8309BD9E253CCBA70045E2A1 /* metal */ = {
 			isa = PBXGroup;
 			children = (
 				45C4F04A2B12677C00B4FF2A /* tvOS */,
@@ -157,7 +181,7 @@
 				8309BDF9253CDAAE0045E2A1 /* macOS */,
 				8309BDA0253CCBC10045E2A1 /* main.mm */,
 			);
-			name = example;
+			name = metal;
 			sourceTree = "<group>";
 		};
 		8309BDF6253CDAAE0045E2A1 /* iOS */ = {
@@ -197,23 +221,6 @@
 				83BBE9EA20EB471700295997 /* MetalKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		83BBE9F020EB544400295997 /* imgui */ = {
-			isa = PBXGroup;
-			children = (
-				5079822D257677DB0038A28D /* imgui_tables.cpp */,
-				8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */,
-				8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */,
-				83BBEA0420EB54E700295997 /* imconfig.h */,
-				83BBEA0320EB54E700295997 /* imgui.cpp */,
-				83BBEA0020EB54E700295997 /* imgui.h */,
-				83BBEA0220EB54E700295997 /* imgui_demo.cpp */,
-				83BBEA0120EB54E700295997 /* imgui_draw.cpp */,
-				07A82ED62139413C0078D120 /* imgui_internal.h */,
-				07A82ED72139413C0078D120 /* imgui_widgets.cpp */,
-			);
-			name = imgui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,13 +352,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A7BFD22B127E9900FC22B7 /* imgui_impl_metal.mm in Sources */,
-				45A7BFD52B127E9900FC22B7 /* imgui.cpp in Sources */,
-				45A7BFD72B127E9900FC22B7 /* imgui_demo.cpp in Sources */,
-				45A7BFD82B127E9900FC22B7 /* imgui_draw.cpp in Sources */,
-				45A7BFD12B127E9900FC22B7 /* imgui_tables.cpp in Sources */,
-				45A7BFDA2B127E9900FC22B7 /* imgui_widgets.cpp in Sources */,
 				45A7BFDE2B12801C00FC22B7 /* main.mm in Sources */,
+				4553E18E2B13DF8D004DF719 /* imgui_draw.cpp in Sources */,
+				4553E1852B13DF8D004DF719 /* imgui.cpp in Sources */,
+				4553E18B2B13DF8D004DF719 /* imgui_demo.cpp in Sources */,
+				4553E1822B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */,
+				4553E17F2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */,
+				4553E1882B13DF8D004DF719 /* imgui_tables.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8309BDBB253CCCAD0045E2A1 /* imgui_impl_metal.mm in Sources */,
-				83BBEA0920EB54E700295997 /* imgui.cpp in Sources */,
-				83BBEA0720EB54E700295997 /* imgui_demo.cpp in Sources */,
-				83BBEA0520EB54E700295997 /* imgui_draw.cpp in Sources */,
-				5079822E257677DB0038A28D /* imgui_tables.cpp in Sources */,
-				07A82ED82139413D0078D120 /* imgui_widgets.cpp in Sources */,
 				8309BDA5253CCC070045E2A1 /* main.mm in Sources */,
+				4553E18D2B13DF8D004DF719 /* imgui_draw.cpp in Sources */,
+				4553E1842B13DF8D004DF719 /* imgui.cpp in Sources */,
+				4553E18A2B13DF8D004DF719 /* imgui_demo.cpp in Sources */,
+				4553E1812B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */,
+				4553E17E2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */,
+				4553E1872B13DF8D004DF719 /* imgui_tables.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,14 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8309BDBE253CCCB60045E2A1 /* imgui_impl_metal.mm in Sources */,
-				8309BDBF253CCCB60045E2A1 /* imgui_impl_osx.mm in Sources */,
-				83BBEA0A20EB54E700295997 /* imgui.cpp in Sources */,
-				83BBEA0820EB54E700295997 /* imgui_demo.cpp in Sources */,
-				83BBEA0620EB54E700295997 /* imgui_draw.cpp in Sources */,
-				452ADFCA2B103670009F133F /* imgui_tables.cpp in Sources */,
-				07A82ED92139418F0078D120 /* imgui_widgets.cpp in Sources */,
 				8309BDA8253CCC080045E2A1 /* main.mm in Sources */,
+				4553E18F2B13DF8D004DF719 /* imgui_draw.cpp in Sources */,
+				4553E1862B13DF8D004DF719 /* imgui.cpp in Sources */,
+				4553E18C2B13DF8D004DF719 /* imgui_demo.cpp in Sources */,
+				4553E1832B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */,
+				4553E1802B13DF8D004DF719 /* imgui_widgets.cpp in Sources */,
+				4553E1892B13DF8D004DF719 /* imgui_tables.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
