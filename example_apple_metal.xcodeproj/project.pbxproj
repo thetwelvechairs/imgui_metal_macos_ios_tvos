@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05318E0F274C397200A8DE2E /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05318E0E274C397200A8DE2E /* GameController.framework */; };
 		4553E17E2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
 		4553E17F2B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
 		4553E1802B13DF8D004DF719 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */; };
@@ -26,45 +25,43 @@
 		4553E18D2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
 		4553E18E2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
 		4553E18F2B13DF8D004DF719 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */; };
+		4553E1932B13E911004DF719 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309BDC5253CCCFE0045E2A1 /* AppKit.framework */; };
+		4553E1962B13E912004DF719 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05318E0E274C397200A8DE2E /* GameController.framework */; };
+		4553E19A2B13E91E004DF719 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4553E1982B13E91E004DF719 /* Metal.framework */; };
+		4553E19B2B13E91E004DF719 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4553E1992B13E91E004DF719 /* MetalKit.framework */; };
+		4553E19C2B13E95A004DF719 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */; };
+		4553E19E2B13EA0B004DF719 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4553E19D2B13EA0B004DF719 /* imgui_impl_osx.mm */; };
 		45A7BFC02B12732E00FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBE2B12732E00FC22B7 /* Metal.framework */; };
 		45A7BFC12B12732E00FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */; };
-		45A7BFC22B1273B500FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D773F2B114B07005897B4 /* Metal.framework */; };
-		45A7BFC32B1273B500FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77412B114B0F005897B4 /* MetalKit.framework */; };
-		45A7BFC82B12742D00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC72B12742D00FC22B7 /* UIKit.framework */; };
 		45A7BFCB2B1274A000FC22B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */; };
-		45A7BFDC2B127FBE00FC22B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */; };
 		45A7BFDD2B127FD400FC22B7 /* TVUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77432B114B32005897B4 /* TVUIKit.framework */; };
 		45A7BFDE2B12801C00FC22B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
 		45A7BFDF2B12862C00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC52B12741000FC22B7 /* UIKit.framework */; };
 		8309BDA5253CCC070045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
 		8309BDA8253CCC080045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
-		8309BDC6253CCCFE0045E2A1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309BDC5253CCCFE0045E2A1 /* AppKit.framework */; };
 		8309BDFC253CDAB30045E2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */; };
 		8309BE04253CDAB60045E2A1 /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */; };
-		83BBE9EC20EB471700295997 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EA20EB471700295997 /* MetalKit.framework */; };
-		83BBE9ED20EB471700295997 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EB20EB471700295997 /* Metal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05318E0E274C397200A8DE2E /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
-		450D773F2B114B07005897B4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
-		450D77412B114B0F005897B4 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		450D77432B114B32005897B4 /* TVUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVUIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVUIKit.framework; sourceTree = DEVELOPER_DIR; };
 		450D77452B114B38005897B4 /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVMLKit.framework; sourceTree = DEVELOPER_DIR; };
 		4553E1742B13DF8D004DF719 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
 		4553E1752B13DF8D004DF719 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
 		4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
-		4553E1772B13DF8D004DF719 /* imgui_impl_osx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_osx.h; sourceTree = "<group>"; };
 		4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_metal.mm; sourceTree = "<group>"; };
 		4553E1792B13DF8D004DF719 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
 		4553E17A2B13DF8D004DF719 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
 		4553E17B2B13DF8D004DF719 /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
 		4553E17C2B13DF8D004DF719 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
 		4553E17D2B13DF8D004DF719 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		4553E1982B13E91E004DF719 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		4553E1992B13E91E004DF719 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		4553E19D2B13EA0B004DF719 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_osx.mm; sourceTree = "<group>"; };
 		45A7BFBE2B12732E00FC22B7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
 		45A7BFC52B12741000FC22B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		45A7BFC72B12742D00FC22B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A7BFCF2B127B3200FC22B7 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -77,8 +74,6 @@
 		8309BDF8253CDAAE0045E2A1 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
 		8309BDFB253CDAAE0045E2A1 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		83BBE9EA20EB471700295997 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		83BBE9EB20EB471700295997 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		83BBE9EE20EB471C00295997 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -89,8 +84,6 @@
 			files = (
 				45A7BFDD2B127FD400FC22B7 /* TVUIKit.framework in Frameworks */,
 				45A7BFDF2B12862C00FC22B7 /* UIKit.framework in Frameworks */,
-				45A7BFC22B1273B500FC22B7 /* Metal.framework in Frameworks */,
-				45A7BFC32B1273B500FC22B7 /* MetalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A7BFC12B12732E00FC22B7 /* MetalKit.framework in Frameworks */,
-				45A7BFC82B12742D00FC22B7 /* UIKit.framework in Frameworks */,
 				45A7BFC02B12732E00FC22B7 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,11 +100,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A7BFDC2B127FBE00FC22B7 /* Cocoa.framework in Frameworks */,
-				8309BDC6253CCCFE0045E2A1 /* AppKit.framework in Frameworks */,
-				83BBE9EC20EB471700295997 /* MetalKit.framework in Frameworks */,
-				05318E0F274C397200A8DE2E /* GameController.framework in Frameworks */,
-				83BBE9ED20EB471700295997 /* Metal.framework in Frameworks */,
+				4553E1962B13E912004DF719 /* GameController.framework in Frameworks */,
+				4553E19C2B13E95A004DF719 /* Cocoa.framework in Frameworks */,
+				4553E19B2B13E91E004DF719 /* MetalKit.framework in Frameworks */,
+				4553E19A2B13E91E004DF719 /* Metal.framework in Frameworks */,
+				4553E1932B13E911004DF719 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +122,10 @@
 		4553E1732B13DF8D004DF719 /* imgui */ = {
 			isa = PBXGroup;
 			children = (
+				4553E19D2B13EA0B004DF719 /* imgui_impl_osx.mm */,
 				4553E1742B13DF8D004DF719 /* imgui.h */,
 				4553E1752B13DF8D004DF719 /* imconfig.h */,
 				4553E1762B13DF8D004DF719 /* imgui_widgets.cpp */,
-				4553E1772B13DF8D004DF719 /* imgui_impl_osx.h */,
 				4553E1782B13DF8D004DF719 /* imgui_impl_metal.mm */,
 				4553E1792B13DF8D004DF719 /* imgui.cpp */,
 				4553E17A2B13DF8D004DF719 /* imgui_internal.h */,
@@ -176,8 +168,8 @@
 		8309BD9E253CCBA70045E2A1 /* metal */ = {
 			isa = PBXGroup;
 			children = (
-				45C4F04A2B12677C00B4FF2A /* tvOS */,
 				8309BDF6253CDAAE0045E2A1 /* iOS */,
+				45C4F04A2B12677C00B4FF2A /* tvOS */,
 				8309BDF9253CDAAE0045E2A1 /* macOS */,
 				8309BDA0253CCBC10045E2A1 /* main.mm */,
 			);
@@ -205,20 +197,17 @@
 		83BBE9E320EB46B800295997 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4553E1982B13E91E004DF719 /* Metal.framework */,
+				4553E1992B13E91E004DF719 /* MetalKit.framework */,
 				45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */,
 				45A7BFC52B12741000FC22B7 /* UIKit.framework */,
-				45A7BFC72B12742D00FC22B7 /* UIKit.framework */,
 				45A7BFBE2B12732E00FC22B7 /* Metal.framework */,
 				45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */,
 				450D77452B114B38005897B4 /* TVMLKit.framework */,
 				450D77432B114B32005897B4 /* TVUIKit.framework */,
-				450D77412B114B0F005897B4 /* MetalKit.framework */,
-				450D773F2B114B07005897B4 /* Metal.framework */,
 				05318E0E274C397200A8DE2E /* GameController.framework */,
 				8309BDC5253CCCFE0045E2A1 /* AppKit.framework */,
 				83BBE9EE20EB471C00295997 /* ModelIO.framework */,
-				83BBE9EB20EB471700295997 /* Metal.framework */,
-				83BBE9EA20EB471700295997 /* MetalKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -386,6 +375,7 @@
 				4553E18C2B13DF8D004DF719 /* imgui_demo.cpp in Sources */,
 				4553E1832B13DF8D004DF719 /* imgui_impl_metal.mm in Sources */,
 				4553E1802B13DF8D004DF719 /* imgui_widgets.cpp in Sources */,
+				4553E19E2B13EA0B004DF719 /* imgui_impl_osx.mm in Sources */,
 				4553E1892B13DF8D004DF719 /* imgui_tables.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +411,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PLIST_FILE_OUTPUT_FORMAT = binary;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twelvechairs.tvOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -458,7 +448,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
 				PLIST_FILE_OUTPUT_FORMAT = binary;
-				PRODUCT_BUNDLE_IDENTIFIER = com.twelvechairs.tvOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-tvos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
