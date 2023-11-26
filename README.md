@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This example is a direct copy from imgui's examples repo https://github.com/ocornut/imgui/tree/master/examples/example_apple_metal. Any/all credit goes to them.
+This example is a direct copy from imgui's [examples](https://github.com/ocornut/imgui/tree/master/examples/example_apple_metal) repo. Any/all credit goes to them.
 
 
 # imgui_metal_macos_ios_tvos_visionos
