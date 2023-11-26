@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05318E0F274C397200A8DE2E /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05318E0E274C397200A8DE2E /* GameController.framework */; };
+		07A82ED82139413D0078D120 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
+		07A82ED92139418F0078D120 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
+		452ADFCA2B103670009F133F /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
+		45A7BFC02B12732E00FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBE2B12732E00FC22B7 /* Metal.framework */; };
+		45A7BFC12B12732E00FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */; };
+		45A7BFC22B1273B500FC22B7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D773F2B114B07005897B4 /* Metal.framework */; };
+		45A7BFC32B1273B500FC22B7 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77412B114B0F005897B4 /* MetalKit.framework */; };
+		45A7BFC82B12742D00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC72B12742D00FC22B7 /* UIKit.framework */; };
+		45A7BFCB2B1274A000FC22B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */; };
+		45A7BFD12B127E9900FC22B7 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
+		45A7BFD22B127E9900FC22B7 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
+		45A7BFD52B127E9900FC22B7 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
+		45A7BFD72B127E9900FC22B7 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
+		45A7BFD82B127E9900FC22B7 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
+		45A7BFDA2B127E9900FC22B7 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A82ED72139413C0078D120 /* imgui_widgets.cpp */; };
+		45A7BFDC2B127FBE00FC22B7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */; };
+		45A7BFDD2B127FD400FC22B7 /* TVUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D77432B114B32005897B4 /* TVUIKit.framework */; };
+		45A7BFDE2B12801C00FC22B7 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
+		45A7BFDF2B12862C00FC22B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A7BFC52B12741000FC22B7 /* UIKit.framework */; };
+		5079822E257677DB0038A28D /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5079822D257677DB0038A28D /* imgui_tables.cpp */; };
+		8309BDA5253CCC070045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
+		8309BDA8253CCC080045E2A1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDA0253CCBC10045E2A1 /* main.mm */; };
+		8309BDBB253CCCAD0045E2A1 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
+		8309BDBE253CCCB60045E2A1 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */; };
+		8309BDBF253CCCB60045E2A1 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */; };
+		8309BDC6253CCCFE0045E2A1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8309BDC5253CCCFE0045E2A1 /* AppKit.framework */; };
+		8309BDFC253CDAB30045E2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */; };
+		8309BE04253CDAB60045E2A1 /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */; };
+		83BBE9EC20EB471700295997 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EA20EB471700295997 /* MetalKit.framework */; };
+		83BBE9ED20EB471700295997 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BBE9EB20EB471700295997 /* Metal.framework */; };
+		83BBEA0520EB54E700295997 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
+		83BBEA0620EB54E700295997 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0120EB54E700295997 /* imgui_draw.cpp */; };
+		83BBEA0720EB54E700295997 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
+		83BBEA0820EB54E700295997 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0220EB54E700295997 /* imgui_demo.cpp */; };
+		83BBEA0920EB54E700295997 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
+		83BBEA0A20EB54E700295997 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83BBEA0320EB54E700295997 /* imgui.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05318E0E274C397200A8DE2E /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		07A82ED62139413C0078D120 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = ../../imgui_internal.h; sourceTree = "<group>"; };
+		07A82ED72139413C0078D120 /* imgui_widgets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_widgets.cpp; path = ../../imgui_widgets.cpp; sourceTree = "<group>"; };
+		450D773F2B114B07005897B4 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		450D77412B114B0F005897B4 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		450D77432B114B32005897B4 /* TVUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVUIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVUIKit.framework; sourceTree = DEVELOPER_DIR; };
+		450D77452B114B38005897B4 /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/TVMLKit.framework; sourceTree = DEVELOPER_DIR; };
+		45A7BFBE2B12732E00FC22B7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		45A7BFC52B12741000FC22B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS17.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		45A7BFC72B12742D00FC22B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45A7BFCF2B127B3200FC22B7 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		45C4F0492B12677C00B4FF2A /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5079822D257677DB0038A28D /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = ../../imgui_tables.cpp; sourceTree = "<group>"; };
+		8307E7C420E9F9C900473790 /* example_apple_metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_apple_metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8307E7DA20E9F9C900473790 /* example_apple_metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example_apple_metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8309BDA0253CCBC10045E2A1 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_metal.mm; path = ../../backends/imgui_impl_metal.mm; sourceTree = "<group>"; };
+		8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = imgui_impl_osx.mm; path = ../../backends/imgui_impl_osx.mm; sourceTree = "<group>"; };
+		8309BDC5253CCCFE0045E2A1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8309BDF8253CDAAE0045E2A1 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
+		8309BDFB253CDAAE0045E2A1 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		83BBE9EA20EB471700295997 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		83BBE9EB20EB471700295997 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		83BBE9EE20EB471C00295997 /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		83BBEA0020EB54E700295997 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = ../../imgui.h; sourceTree = "<group>"; };
+		83BBEA0120EB54E700295997 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = ../../imgui_draw.cpp; sourceTree = "<group>"; };
+		83BBEA0220EB54E700295997 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = ../../imgui_demo.cpp; sourceTree = "<group>"; };
+		83BBEA0320EB54E700295997 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = ../../imgui.cpp; sourceTree = "<group>"; };
+		83BBEA0420EB54E700295997 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = ../../imconfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C4F0462B12677C00B4FF2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BFDD2B127FD400FC22B7 /* TVUIKit.framework in Frameworks */,
+				45A7BFDF2B12862C00FC22B7 /* UIKit.framework in Frameworks */,
+				45A7BFC22B1273B500FC22B7 /* Metal.framework in Frameworks */,
+				45A7BFC32B1273B500FC22B7 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7C120E9F9C900473790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BFC12B12732E00FC22B7 /* MetalKit.framework in Frameworks */,
+				45A7BFC82B12742D00FC22B7 /* UIKit.framework in Frameworks */,
+				45A7BFC02B12732E00FC22B7 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7D720E9F9C900473790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BFDC2B127FBE00FC22B7 /* Cocoa.framework in Frameworks */,
+				8309BDC6253CCCFE0045E2A1 /* AppKit.framework in Frameworks */,
+				83BBE9EC20EB471700295997 /* MetalKit.framework in Frameworks */,
+				05318E0F274C397200A8DE2E /* GameController.framework in Frameworks */,
+				83BBE9ED20EB471700295997 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C4F04A2B12677C00B4FF2A /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				45A7BFC92B1274A000FC22B7 /* LaunchScreen.storyboard */,
+				45A7BFCF2B127B3200FC22B7 /* Info-tvOS.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		8307E7B520E9F9C700473790 = {
+			isa = PBXGroup;
+			children = (
+				83BBE9F020EB544400295997 /* imgui */,
+				8309BD9E253CCBA70045E2A1 /* example */,
+				8307E7C520E9F9C900473790 /* Products */,
+				83BBE9E320EB46B800295997 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8307E7C520E9F9C900473790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8307E7C420E9F9C900473790 /* example_apple_metal.app */,
+				8307E7DA20E9F9C900473790 /* example_apple_metal.app */,
+				45C4F0492B12677C00B4FF2A /* tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8309BD9E253CCBA70045E2A1 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				45C4F04A2B12677C00B4FF2A /* tvOS */,
+				8309BDF6253CDAAE0045E2A1 /* iOS */,
+				8309BDF9253CDAAE0045E2A1 /* macOS */,
+				8309BDA0253CCBC10045E2A1 /* main.mm */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		8309BDF6253CDAAE0045E2A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8309BDF7253CDAAE0045E2A1 /* LaunchScreen.storyboard */,
+				8309BDF8253CDAAE0045E2A1 /* Info-iOS.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8309BDF9253CDAAE0045E2A1 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8309BDFA253CDAAE0045E2A1 /* MainMenu.storyboard */,
+				8309BDFB253CDAAE0045E2A1 /* Info-macOS.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		83BBE9E320EB46B800295997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45A7BFDB2B127FBE00FC22B7 /* Cocoa.framework */,
+				45A7BFC52B12741000FC22B7 /* UIKit.framework */,
+				45A7BFC72B12742D00FC22B7 /* UIKit.framework */,
+				45A7BFBE2B12732E00FC22B7 /* Metal.framework */,
+				45A7BFBF2B12732E00FC22B7 /* MetalKit.framework */,
+				450D77452B114B38005897B4 /* TVMLKit.framework */,
+				450D77432B114B32005897B4 /* TVUIKit.framework */,
+				450D77412B114B0F005897B4 /* MetalKit.framework */,
+				450D773F2B114B07005897B4 /* Metal.framework */,
+				05318E0E274C397200A8DE2E /* GameController.framework */,
+				8309BDC5253CCCFE0045E2A1 /* AppKit.framework */,
+				83BBE9EE20EB471C00295997 /* ModelIO.framework */,
+				83BBE9EB20EB471700295997 /* Metal.framework */,
+				83BBE9EA20EB471700295997 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83BBE9F020EB544400295997 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				5079822D257677DB0038A28D /* imgui_tables.cpp */,
+				8309BDB5253CCC9D0045E2A1 /* imgui_impl_metal.mm */,
+				8309BDB6253CCC9D0045E2A1 /* imgui_impl_osx.mm */,
+				83BBEA0420EB54E700295997 /* imconfig.h */,
+				83BBEA0320EB54E700295997 /* imgui.cpp */,
+				83BBEA0020EB54E700295997 /* imgui.h */,
+				83BBEA0220EB54E700295997 /* imgui_demo.cpp */,
+				83BBEA0120EB54E700295997 /* imgui_draw.cpp */,
+				07A82ED62139413C0078D120 /* imgui_internal.h */,
+				07A82ED72139413C0078D120 /* imgui_widgets.cpp */,
+			);
+			name = imgui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C4F0482B12677C00B4FF2A /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C4F05B2B12677D00B4FF2A /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				45C4F0452B12677C00B4FF2A /* Sources */,
+				45C4F0462B12677C00B4FF2A /* Frameworks */,
+				45C4F0472B12677C00B4FF2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = tvOS;
+			productReference = 45C4F0492B12677C00B4FF2A /* tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8307E7C320E9F9C900473790 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8307E7F020E9F9C900473790 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				8307E7C020E9F9C900473790 /* Sources */,
+				8307E7C120E9F9C900473790 /* Frameworks */,
+				8307E7C220E9F9C900473790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = "imguiex iOS";
+			productReference = 8307E7C420E9F9C900473790 /* example_apple_metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8307E7D920E9F9C900473790 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8307E7F320E9F9C900473790 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				8307E7D620E9F9C900473790 /* Sources */,
+				8307E7D720E9F9C900473790 /* Frameworks */,
+				8307E7D820E9F9C900473790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = "imguiex macOS";
+			productReference = 8307E7DA20E9F9C900473790 /* example_apple_metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8307E7B620E9F9C700473790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Warren Moore";
+				TargetAttributes = {
+					45C4F0482B12677C00B4FF2A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8307E7C320E9F9C900473790 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					8307E7D920E9F9C900473790 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8307E7B920E9F9C700473790 /* Build configuration list for PBXProject "example_apple_metal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8307E7B520E9F9C700473790;
+			productRefGroup = 8307E7C520E9F9C900473790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8307E7C320E9F9C900473790 /* iOS */,
+				45C4F0482B12677C00B4FF2A /* tvOS */,
+				8307E7D920E9F9C900473790 /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C4F0472B12677C00B4FF2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BFCB2B1274A000FC22B7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7C220E9F9C900473790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309BDFC253CDAB30045E2A1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7D820E9F9C900473790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309BE04253CDAB60045E2A1 /* MainMenu.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C4F0452B12677C00B4FF2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BFD22B127E9900FC22B7 /* imgui_impl_metal.mm in Sources */,
+				45A7BFD52B127E9900FC22B7 /* imgui.cpp in Sources */,
+				45A7BFD72B127E9900FC22B7 /* imgui_demo.cpp in Sources */,
+				45A7BFD82B127E9900FC22B7 /* imgui_draw.cpp in Sources */,
+				45A7BFD12B127E9900FC22B7 /* imgui_tables.cpp in Sources */,
+				45A7BFDA2B127E9900FC22B7 /* imgui_widgets.cpp in Sources */,
+				45A7BFDE2B12801C00FC22B7 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7C020E9F9C900473790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309BDBB253CCCAD0045E2A1 /* imgui_impl_metal.mm in Sources */,
+				83BBEA0920EB54E700295997 /* imgui.cpp in Sources */,
+				83BBEA0720EB54E700295997 /* imgui_demo.cpp in Sources */,
+				83BBEA0520EB54E700295997 /* imgui_draw.cpp in Sources */,
+				5079822E257677DB0038A28D /* imgui_tables.cpp in Sources */,
+				07A82ED82139413D0078D120 /* imgui_widgets.cpp in Sources */,
+				8309BDA5253CCC070045E2A1 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307E7D620E9F9C900473790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8309BDBE253CCCB60045E2A1 /* imgui_impl_metal.mm in Sources */,
+				8309BDBF253CCCB60045E2A1 /* imgui_impl_osx.mm in Sources */,
+				83BBEA0A20EB54E700295997 /* imgui.cpp in Sources */,
+				83BBEA0820EB54E700295997 /* imgui_demo.cpp in Sources */,
+				83BBEA0620EB54E700295997 /* imgui_draw.cpp in Sources */,
+				452ADFCA2B103670009F133F /* imgui_tables.cpp in Sources */,
+				07A82ED92139418F0078D120 /* imgui_widgets.cpp in Sources */,
+				8309BDA8253CCC080045E2A1 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45C4F05C2B12677D00B4FF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info-tvOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twelvechairs.tvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+			};
+			name = Debug;
+		};
+		45C4F05D2B12677D00B4FF2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/tvOS/Info-tvOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				INFOPLIST_OUTPUT_FORMAT = binary;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PLIST_FILE_OUTPUT_FORMAT = binary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twelvechairs.tvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8307E7EE20E9F9C900473790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		8307E7EF20E9F9C900473790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		8307E7F120E9F9C900473790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info-iOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-ios";
+				PRODUCT_NAME = example_apple_metal;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+			};
+			name = Debug;
+		};
+		8307E7F220E9F9C900473790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS/Info-iOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-ios";
+				PRODUCT_NAME = example_apple_metal;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8307E7F420E9F9C900473790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info-macOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-macos";
+				PRODUCT_NAME = example_apple_metal;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+			};
+			name = Debug;
+		};
+		8307E7F520E9F9C900473790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 4ULYL9H857;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info-macOS.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Metal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twelvechairs.metal-macos";
+				PRODUCT_NAME = example_apple_metal;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C4F05B2B12677D00B4FF2A /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C4F05C2B12677D00B4FF2A /* Debug */,
+				45C4F05D2B12677D00B4FF2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8307E7B920E9F9C700473790 /* Build configuration list for PBXProject "example_apple_metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8307E7EE20E9F9C900473790 /* Debug */,
+				8307E7EF20E9F9C900473790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8307E7F020E9F9C900473790 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8307E7F120E9F9C900473790 /* Debug */,
+				8307E7F220E9F9C900473790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8307E7F320E9F9C900473790 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8307E7F420E9F9C900473790 /* Debug */,
+				8307E7F520E9F9C900473790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8307E7B620E9F9C700473790 /* Project object */;
+}
